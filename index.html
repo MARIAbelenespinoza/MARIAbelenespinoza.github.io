@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Css/estilos.css">
+    <title>Diseñadora Grafica</title>
+    <link rel="icon" href="imagenes/logo.ico">
+</head>
+<body>
+    <!--SECCION I N I C I O-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1> |EJ|</h1>
+                    <nav id="nav" class="">
+                        <ul id="link">
+                            <li><a href="#inicio" class="seleccionado" onclick="selecionar(this)">Inicio</a></li>
+                            <li><a href="#acercademi" onclick="seleccionar(this)">Acerca de mi</a></li>
+                            <li><a href="#habilidades" onclick="seleccionar(this)">Habilidades</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">Portafolio</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <!--Icono del menu-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida"> B i e n v e n i d o s </p>
+                <h2><span>Emily Jones</span>  | Diseñadora Grafica</h2>
+                <p class="descripcion">Una diseñadora apasionada en New York</p>
+            </div>
+        </div>
+    </section>
+
+<!--SECCION S O B R E M I -->
+     <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="imagenes/imag1.jpg" alt="perfil de Emily Jones">
+
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Acerca de Mi</p>
+            <h2><span>Emily Jones</span> </h2>
+            <p><b>Edad:</b> 30</p>
+            <p><b>Grado:</b> Master</p>
+            <p><b>Freelance:</b> Disponible</p>
+            <p><b>Nacimiento:</b> 1 de Mayo de 1995</p>
+            <p><b>Cuidad:</b> Nueva York</p>
+
+            <p><h3>Experiencia:</h3>
+
+                <b>- Especialista Superior en Diseño Grafico - 20.02.2023 -Experior NY</b>
+            <p>|Supervisar la evaluacion de todos los materiales graficos para garantizar
+                la calidad y precision del diseño.|</p>
+            <p>||Liderar el diseño, desarrollo e implementacion de los materiales de 
+                comunicacion graficos, de maquetación y de producción.||</p>
+            </p>
+        </div>
+     </section>
+
+<!--SECCION H A B I L I D A D E S-->
+     <div class="contenedor-habilidades" id="habilidades">
+        <h3> Habilidades </h3>
+        <div class="habilidades">
+            <div class="info">
+                <p> <span class="lista"> </span>Html</p>
+                <span class="porcentaje">100%</span>
+            </div>
+          <div class="barra">
+                <div class="barra-progreso1" id="html"></div>
+          </div>
+        </div>
+
+        <div class="habilidades">
+            <div class="info">
+                <p> <span class="lista"> </span>Css </p>
+                <span class="porcentaje">80%</span>
+            </div>
+          <div class="barra">
+                <div class="barra-progreso2" id="Css"></div>
+          </div>  
+        </div>
+
+        <div class="habilidades">
+            <div class="info">
+                <p> <span class="lista"> </span>JavaScript</p>
+                <span class="porcentaje">75%</span>
+            </div>
+            <div class="barra">
+                <div class="barra-progreso3" id="js"></div>
+            </div>
+        </div>
+
+        <div class="habilidades">
+            <div class="info">
+                <p> <span class="lista"> </span>Wordpress</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div class="barra-progreso4" id="Wordpress"></div>
+            </div>
+        </div>
+
+        <div class="habilidades">
+            <div class="info">
+                <p> <span class="lista"> </span>Photoshop</p>
+                <span class="porcentaje">85%</span>
+            </div>
+            <div class="barra">
+                <div class="barra-progreso5" id="Photoshop"></div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- SECCION P O R T A F O L I O-->
+        <section id="portfolio">
+            <h3 class="titulo-seccion">Mis Proyectos</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="imagenes/imag2.jpg" alt="Branding Leticia Bertolini">
+                    <div class="info">
+                        <h4>LB</h4>
+                        <p>Logo</p>
+                    </div>
+                </div>
+                
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                     <img src="imagenes/imag3.jpg" alt=" Grimandhi">
+                    <div class="info">
+                          <h4>Grimandhi</h4>
+                            <p>Logo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                     <img src="imagenes/imag4.jpg" alt="Branding Iroha Studios">
+                    <div class="info">
+                          <h4>Iroha Studios</h4>
+                            <p>Branding</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                     <img src="imagenes/imag5.jpg" alt="Branding Bohemia">
+                    <div class="info">
+                          <h4>Bohemia</h4>
+                            <p>Branding</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                     <img src="imagenes/imag6.jpg" alt="Branding Acrine">
+                    <div class="info">
+                          <h4>Acrine</h4>
+                            <p>Branding</p>
+                    </div>
+                </div>
+        </section>
+
+<!--SECCION C O N T A C T O  -->
+
+     <seccion id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema.." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje.." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar mensaje" class="btn-enviar">
+            </form>
+        </div>
+<!--SECCION F O O T E R -->
+    <footer>
+        <p>Aviso de copyright  ©️  </p>
+    </footer>
+
+
+    <script src="Js/script.js"></script>
+
+
+     
+</body>
+</html>
